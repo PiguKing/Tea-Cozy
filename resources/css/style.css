@@ -33,6 +33,7 @@ header img {
 }
 
 .main-nav {
+  margin-right: 20px;
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -40,15 +41,15 @@ header img {
 
 
 .main-nav nav span a {
-  margin: 10px;
+  font-size: 18px;
+  margin: 10px 0px 10px 10px;
 }
 
 /* Main content Organizer */
 .main-organizer {
   display: flex;
   justify-content: center;
-  position: relative;
-  top: 69px;
+  padding: 69px;
 }
 
 /* Main Content section - containt Rows */
@@ -88,7 +89,7 @@ header img {
   margin-top: 50px;
   width: 1000px;
 }
-.tea-month-title {
+#tea-month-title {
   width: 1000px;
 }
 
