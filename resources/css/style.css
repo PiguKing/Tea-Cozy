@@ -1,0 +1,184 @@
+html, body, a {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Header Section */
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  border: 1px solid seashell;
+  background-color: black;
+  width: 100%;
+  height: 69px;
+}
+
+.logo-image {
+  display: flex;
+  width: 100%;
+}
+
+header img {
+  margin-left: 10px;
+  height: 50px;
+}
+
+.main-nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.main-nav nav span a {
+  margin: 10px;
+}
+
+/* Main content Organizer */
+.main-organizer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 69px;
+}
+
+/* Main Content section - containt Rows */
+.main-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1500px;
+}
+
+.row {
+  display: flex;
+}
+
+/* Row 1 */
+#row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+
+#our-mission-text h2, #our-mission-text h4{
+  background-color: rgba(0,0,0,0.85);
+  margin: 0px;
+  padding: 10px;
+  width: 1200px;
+}
+
+/* Row 2 */
+#row2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  width: 1000px;
+}
+.tea-month-title {
+  width: 1000px;
+}
+
+.selected-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  bottom: 20px;
+}
+
+.products img{
+  margin: 10px;
+  height: 200px;
+  width: 300px;
+}
+
+.products p{
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+/* Row 3 */
+#row3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  height: 500px;
+  width: 1000px;
+  background-image: url("../images/locations-background.jpg");
+  background-position: center;
+}
+
+#location-section-title {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 1000px;
+}
+
+#location-section-title h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.locations{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  height: 300px;
+  width: 95%;
+}
+
+.addresses {
+  width: 300px;
+  background-color: rgba(0,0,0,0.85);
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+
+/* Footer section Organizer */
+.footer-organizer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 69px;
+  margin-top: 50px;
+  height: 200px;
+  font-family: Helvetica;
+  font-size: 20px;
+  color: seashell;
+}
+
+/* Copy Rights */
+#copy-rights {
+  position: relative;
+  top: 69px;
+  margin: 50px 0px 30px 20px;
+  text-align: left;
+}
+
+#copy-rights p {
+  font-family: Helvetica;
+  font-size: 12px;
+  color: seashell;
+}
