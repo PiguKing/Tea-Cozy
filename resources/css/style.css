@@ -24,7 +24,7 @@ header {
 
 .logo-image {
   display: flex;
-  width: 100%;
+  justify-content: flex-start;
 }
 
 header img {
@@ -86,7 +86,7 @@ header img {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 50px;
+  padding-top: 50px;
   width: 1000px;
 }
 #tea-month-title {
@@ -107,10 +107,20 @@ header img {
   width: 300px;
 }
 
+
 .products p{
   margin: 0;
   margin-bottom: 10px;
   padding: 0;
+  text-decoration: underline;
+}
+
+.products a {
+  text-decoration: none;
+}
+
+.products a:hover {
+  color: pink;
 }
 
 /* Row 3 */
